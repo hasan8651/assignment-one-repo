@@ -174,3 +174,82 @@ body{
   margin-top: 20px;
   border-radius: 48px;
 }
+
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+ margin-left: auto;
+ margin-right: auto;
+  padding: 60px 40px;
+  align-items: center;
+    width: 1140px;
+  
+}
+
+.contact .left {
+  flex: 1.5;
+  min-width: 250px;
+  
+ 
+}
+
+.contact .right {
+  flex: 1;
+  min-width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 20px 32px;
+  font-size: 20px;
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
+  font-family: inter;
+}
+
+textarea{
+  min-height: 167px;
+  max-width:430px;
+}
+
+form button {
+  background: #4E47FF;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fafaff;
+}
+
+.footer nav {
+  margin-top: 15px;
+}
+
+.footer nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
