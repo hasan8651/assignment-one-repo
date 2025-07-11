@@ -62,8 +62,8 @@ body{
   justify-content:space-between;
   align-items:center;
   margin-top: 116px;
-  margin-left: 141px;
-  margin-right: 159px;
+  margin-left:auto;
+  margin-right:auto;
   width: 1140px;
   height: 328px;
 }
@@ -98,7 +98,9 @@ body{
     width: 1140px;
     height: 306px;
     display: block;
-    margin: 116px;
+    margin-top: 116px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgba(78, 71, 255, 0.1);
     text-align: center;
     font-weight: bold;
@@ -236,11 +238,12 @@ form button {
   cursor: pointer;
 }
 
-/* Footer */
+
 .footer {
   text-align: center;
   padding: 40px 20px;
   background: #fafaff;
+  color: #8987A1;
 }
 
 .footer nav {
@@ -249,7 +252,7 @@ form button {
 
 .footer nav a {
   margin: 0 15px;
-  color: #333;
+  color: #8987A1;
   text-decoration: none;
   font-weight: 500;
 }
